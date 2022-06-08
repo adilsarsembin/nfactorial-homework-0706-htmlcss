@@ -49,7 +49,6 @@ let dataBase = {};
 for (i = 0; i < newPrice.length; i++) {
     dataBase[availableProducts[i]] = newPrice[i];
 }
-console.log(dataBase);
 
 let totalSum = (a, b, c, d, e, f) => {
     return a + b + c + d + e + f;
